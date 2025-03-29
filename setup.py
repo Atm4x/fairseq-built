@@ -162,7 +162,7 @@ if os.path.exists(os.path.join("fairseq", "model_parallel", "megatron", "mpu")):
 
 def do_setup(package_data):
     setup(
-        name="fairseq",
+        name="fairseq-built",
         version=version,
         description="Facebook AI Research Sequence-to-Sequence Toolkit",
         url="https://github.com/pytorch/fairseq",
